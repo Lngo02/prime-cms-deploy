@@ -6,6 +6,7 @@ import Home from './Home';
 import About from './About';
 import Goals from './Goals';
 import JobDescription from './JobDescription';
+import Conclusion from './Conclusion';
 import * as serviceWorker from './serviceWorker';
 // Import for apollo graph ql
 import ApolloClient from 'apollo-boost';
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="/About" component={About} />
             <Route path="/Goals" component={Goals} />
             <Route path="/JobDescription" component={JobDescription} />
+            <Route path="/Conclusion" component={Conclusion} />
         </Router>
     </ApolloProvider>
 );
