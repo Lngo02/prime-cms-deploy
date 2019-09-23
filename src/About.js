@@ -27,9 +27,9 @@ function About() {
                     <span></span>
                 </button>
                 <ul>
-                    <li><a href={"/Home"}>Introduction</a></li>
-                    <li><a href={"/About"}>About</a></li>
-                    <li><a href={"/Goals"}>Goals</a></li>
+                    <li><a href={"/prime-cms-deploy/Home"}>Introduction</a></li>
+                    <li><a href={"/prime-cms-deploy/About"}>About</a></li>
+                    <li><a href={"/prime-cms-deploy/Goals"}>Goals</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
             </nav>
