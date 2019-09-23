@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49c740082209c82ee25f44757bfaf1d3",
+    "revision": "ad53cad986fb20901a1791a255bb361d",
     "url": "/prime-cms-deploy/index.html"
   },
   {
-    "revision": "7e4adfd5e4aa013541b0",
+    "revision": "8950fc8b04e5f0c7c10b",
     "url": "/prime-cms-deploy/static/css/main.e515da20.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/prime-cms-deploy/static/js/2.fd5fa7fa.chunk.js"
   },
   {
-    "revision": "7e4adfd5e4aa013541b0",
-    "url": "/prime-cms-deploy/static/js/main.4369ba8f.chunk.js"
+    "revision": "8950fc8b04e5f0c7c10b",
+    "url": "/prime-cms-deploy/static/js/main.c9dc4b8a.chunk.js"
   },
   {
     "revision": "879de3587acd7a204a7e",
