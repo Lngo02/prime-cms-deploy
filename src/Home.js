@@ -30,10 +30,9 @@ function Home() {
                     <span></span>
                 </button>
                 <ul>
-                    <li><a href={"/prime-cms-deploy/"}>Introduction</a></li>
                     <li><a href={"/prime-cms-deploy/About"}>About</a></li>
                     <li><a href={"/prime-cms-deploy/Goals"}>Goals</a></li>
-                    <li><a href={"/prime-cms-deploy/JobDescription"}>Job Description</a></li>
+                    <li><a href={"/prime-cms-deploy/JobDescription"}>The Job</a></li>
                     <li><a href={"/prime-cms-deploy/Conclusion"}>Conclusion</a></li>
                 </ul>
             </nav>
@@ -53,3 +52,12 @@ function Home() {
 }
 
 export default Home;
+
+/*
+ * Full table of contents
+    <li><a href={"/prime-cms-deploy/"}>Introduction</a></li>
+    <li><a href={"/prime-cms-deploy/About"}>About</a></li>
+    <li><a href={"/prime-cms-deploy/Goals"}>Goals</a></li>
+    <li><a href={"/prime-cms-deploy/JobDescription"}>Job Description</a></li>
+    <li><a href={"/prime-cms-deploy/Conclusion"}>Conclusion</a></li>
+ */
