@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/prime-cms-deploy/static/css/main.e515da20.chunk.css",
-    "main.js": "/prime-cms-deploy/static/js/main.d5f4ce90.chunk.js",
-    "main.js.map": "/prime-cms-deploy/static/js/main.d5f4ce90.chunk.js.map",
+    "main.js": "/prime-cms-deploy/static/js/main.cee1c57e.chunk.js",
+    "main.js.map": "/prime-cms-deploy/static/js/main.cee1c57e.chunk.js.map",
     "runtime~main.js": "/prime-cms-deploy/static/js/runtime~main.fb9cc084.js",
     "runtime~main.js.map": "/prime-cms-deploy/static/js/runtime~main.fb9cc084.js.map",
     "static/js/2.0bd1f58f.chunk.js": "/prime-cms-deploy/static/js/2.0bd1f58f.chunk.js",
     "static/js/2.0bd1f58f.chunk.js.map": "/prime-cms-deploy/static/js/2.0bd1f58f.chunk.js.map",
     "index.html": "/prime-cms-deploy/index.html",
-    "precache-manifest.c88971e6b3234beb34fcd6b30e5a067f.js": "/prime-cms-deploy/precache-manifest.c88971e6b3234beb34fcd6b30e5a067f.js",
+    "precache-manifest.42f74f3816c4da46002d1be937272f1c.js": "/prime-cms-deploy/precache-manifest.42f74f3816c4da46002d1be937272f1c.js",
     "service-worker.js": "/prime-cms-deploy/service-worker.js",
     "static/css/main.e515da20.chunk.css.map": "/prime-cms-deploy/static/css/main.e515da20.chunk.css.map",
     "static/media/logo.svg": "/prime-cms-deploy/static/media/logo.5d5d9eef.svg"
