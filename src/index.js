@@ -18,7 +18,7 @@ const client = new ApolloClient({
 
 const App = () => (
     <ApolloProvider client={client}>
-        <Router basename="/prime-cms-deploy">
+        <Router basename={process.env.PUBLIC_URL}>
             <Route exact path="/" component={Home} />
             <Route exact path="/Home" component={Home} />
             <Route exact path="/About" component={About} />
