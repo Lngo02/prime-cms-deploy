@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/prime-cms-deploy/static/css/main.e515da20.chunk.css",
+    "main.js": "/prime-cms-deploy/static/js/main.47e941c9.chunk.js",
+    "main.js.map": "/prime-cms-deploy/static/js/main.47e941c9.chunk.js.map",
+    "runtime~main.js": "/prime-cms-deploy/static/js/runtime~main.fb9cc084.js",
+    "runtime~main.js.map": "/prime-cms-deploy/static/js/runtime~main.fb9cc084.js.map",
+    "static/js/2.0bd1f58f.chunk.js": "/prime-cms-deploy/static/js/2.0bd1f58f.chunk.js",
+    "static/js/2.0bd1f58f.chunk.js.map": "/prime-cms-deploy/static/js/2.0bd1f58f.chunk.js.map",
+    "index.html": "/prime-cms-deploy/index.html",
+    "precache-manifest.24087916bb9c6c17d15cea53d789bc56.js": "/prime-cms-deploy/precache-manifest.24087916bb9c6c17d15cea53d789bc56.js",
+    "service-worker.js": "/prime-cms-deploy/service-worker.js",
+    "static/css/main.e515da20.chunk.css.map": "/prime-cms-deploy/static/css/main.e515da20.chunk.css.map",
+    "static/media/logo.svg": "/prime-cms-deploy/static/media/logo.5d5d9eef.svg"
+  }
+}
