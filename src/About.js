@@ -30,7 +30,7 @@ function About() {
                     <li><a href={"/prime-cms-deploy/"}>Introduction</a></li>
                     <li><a href={"/prime-cms-deploy/About"}>About</a></li>
                     <li><a href={"/prime-cms-deploy/Goals"}>Goals</a></li>
-                    <li><a href="#contact">contact</a></li>
+                    <li><a href={"/prime-cms-deploy/JobDescription"}>Job Description</a></li>
                 </ul>
             </nav>
             <section id="about">

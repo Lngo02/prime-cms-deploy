@@ -7,6 +7,10 @@ import { useQuery } from '@apollo/react-hooks';
 function Goals() {
     const { loading, error, data } = useQuery(gql`
         {
+            GoalsIntroduction{
+                goalsTitle,
+                goalsIntroduction,
+            }
 	        allGoals{
 		        edges {
 			        node{
@@ -33,13 +37,13 @@ function Goals() {
                     <li><a href={"/prime-cms-deploy/"}>Introduction</a></li>
                     <li><a href={"/prime-cms-deploy/About"}>About</a></li>
                     <li><a href={"/prime-cms-deploy/Goals"}>Goals</a></li>
-                    <li><a href="#contact">contact</a></li>
+                    <li><a href={"/prime-cms-deploy/JobDescription"}>Job Description</a></li>
                 </ul>
             </nav>
             <div>
                 <section>
-                    <h2>Goals</h2>
-                    <p>My Goals for work term 2 </p>
+                    <h2> {data.GoalsIntroduction.goalsTitle} </h2>
+                    <p>  {data.GoalsIntroduction.goalsIntroduction} </p>
                 </section>
                 {
                     data.allGoals.edges.slice(0).map((item, index) => (

@@ -4,18 +4,18 @@ import './App.css';
 import {gql} from 'apollo-boost';
 import { useQuery } from '@apollo/react-hooks';
 
-function Home() {
+function JobDescription() {
     const { loading, error, data } = useQuery(gql`
         {
-            Introduction {
-                introductionTitle,
-                whoHeading,
-                whoContent,
-                whatHeading,
-                whatContent,
-                howHeading,
-                howContent
-            }
+            JobOverview{
+		        jobDescriptionTitle,
+                jobOverviewHeading,
+                jobOverviewContent,
+                interestingAspectsHeading,
+                interestingAspectsContent,
+                skillsDevelopedHeading,
+                skillsDevelopedContent,
+              }
         }
     `);
 
@@ -36,14 +36,14 @@ function Home() {
                     <li><a href={"/prime-cms-deploy/JobDescription"}>Job Description</a></li>
                 </ul>
             </nav>
-            <section id="introduction">
-                <h2> {data.Introduction.introductionTitle} </h2>
-                <h3> {data.Introduction.whoHeading}</h3>
-                <p> {data.Introduction.whoContent} </p>
-                <h3> {data.Introduction.whatHeading}</h3>
-                <p> {data.Introduction.whatContent} </p>
-                <h3> {data.Introduction.howHeading}</h3>
-                <p> {data.Introduction.howContent} </p>
+            <section id="JobOverview">
+                <h2> {data.JobOverview.jobDescriptionTitle} </h2>
+                <h3> {data.JobOverview.jobOverviewHeading}</h3>
+                <p> {data.JobOverview.jobOverviewDescription} </p>
+                <h3> {data.JobOverview.interestingAspectsHeading}</h3>
+                <p> {data.JobOverview.interestingAspectsContent} </p>
+                <h3> {data.JobOverview.skillsDevelopedHeading}</h3>
+                <p> {data.JobOverview.skillsDevelopedContent} </p>
             </section>
         </div>
     )
@@ -51,4 +51,4 @@ function Home() {
     
 }
 
-export default Home;
+export default JobDescription;
